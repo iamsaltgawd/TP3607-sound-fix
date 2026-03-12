@@ -1,6 +1,6 @@
 Tested on Linux kernel 6.19, Debian Sid
 
-On any linux distribution I have tried so far, the speakers are not functioning at all. The problem is caused by Linux sound drivers incorrectly powering on the speaker amplifiers with driver TIAS2781. While the driver is yet to be fixed(?) a quick hack can be found [here](https://e2e.ti.com/support/audio-group/audio/f/audio-forum/1282089/tas2781-tas2781).
+driver name: TIAS2781
 
 1. The bus for the TIAS2781 chip
 ```bash
